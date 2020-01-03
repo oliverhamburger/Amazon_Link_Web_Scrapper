@@ -69,7 +69,8 @@ def send_mail(URL):
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('hamburger.soccer@gmail.com', 'vixxjbwhdjewwqqa')
+    #enter sending email and passwrod
+    server.login('email@email.com', 'emailpassword')
 
     subject = 'Price fell down'
     body = 'Check the amazon link ' + URL
