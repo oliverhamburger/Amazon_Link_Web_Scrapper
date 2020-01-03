@@ -77,8 +77,8 @@ def send_mail(URL):
 
     msg = f"Subject: {subject}\n\n{body}"
     server.sendmail(
-        'hamburger.soccer@gmail.com',
-        'oliver.hamburger@uvm.edu',
+        'sendingEmail@email.com',
+        'recevingEmail@email.com',
         msg
     )
     print('Email has been sent')
