@@ -107,5 +107,3 @@ while(len(pages) != 0):
             pages.remove(page)
     time.sleep(60)
 
-
-#upload to git
